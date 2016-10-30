@@ -1,2 +1,1 @@
-## React Application
-
+## Hanging out with React 
