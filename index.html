@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hlleklsjfl</title>
+</head>
+<body>
+  <div id="app">
+  </div>
+
+    <div id="app2">
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+  <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0-alpha1/JSXTransformer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+
+  <script type="text/jsx">
+
+  /** @jsx React.DOM */
+  var MessageBox = React.createClass({
+    render: function() {
+      return (<h1>Heii ankit</h1>);
+    }
+  });
+
+    var Greetings = React.createClass({
+      render: function(){
+        return (<h3>Greetings from mark and react team</h3>)
+      }
+    });
+    
+
+  ReactDOM.render(<MessageBox/>,document.getElementById('app'),function(){console.log("logged in")});
+  ReactDOM.render(<Greetings/>,document.getElementById('app2'),function(){console.log("logged another one")})
+
+  </script>
+
+</body>
+
+</html>
